@@ -8,7 +8,7 @@ for i in range(n):
     for j in range(n):
         cost[i][j] = int(input())
 
-# Se usa 15000 como valor centinela (infinito), igual que en el código original
+# Se usa 15000 como valor centinela (infinito)
 dist = [15000]*n
 visitado = [0]*n
 
