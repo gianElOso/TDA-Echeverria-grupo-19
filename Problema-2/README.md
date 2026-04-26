@@ -14,5 +14,5 @@ Este codigo resuelve el problema de caminos mínimos en grafos ponderados desde 
 ## Instrucciones de Ejecución
 Ejecute el comando:
 ```bash
-python ejercicio_greedy.py
+python greedy.py
 ```
