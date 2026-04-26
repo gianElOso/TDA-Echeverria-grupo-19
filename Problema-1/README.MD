@@ -1,6 +1,6 @@
 # Problema 1: División y Conquista - La Moneda Falsa
 
-Este directorio contiene el código fuente correspondiente al Problema 1 del Trabajo Práctico 1 de Teoría de Algoritmos. El objetivo es identificar una moneda falsa (más liviana) en un conjunto de n monedas utilizando una estrategia de División y Conquista con complejidad O(log3 n).
+Este directorio contiene el código fuente correspondiente al Problema 1 del Trabajo Práctico 1 de Teoría de Algoritmos. El objetivo es identificar una moneda falsa (más liviana) en un conjunto de n monedas utilizando una estrategia de División y Conquista.
 
 ## Archivos incluidos
 * `ejercicio_dyc.py`: Contiene la implementación principal del algoritmo recursivo de División y Conquista. Además, incluye la lógica para generar los sets de datos, realizar las pesadas y medir el tiempo de ejecución.
@@ -18,7 +18,7 @@ El código utiliza las siguientes bibliotecas:
 
 **Bibliotecas de terceros** (requieren instalación):
 * `matplotlib`: Utilizada en `grafico_dyc.py` para la generación visual de los gráficos de rendimiento.
-* `numpy`: Utilizada en `grafico_dyc.py` para la vectorización de cálculos y operaciones sobre las curvas teóricas (ej. logaritmos en base 3).
+* `numpy`: Utilizada en `grafico_dyc.py` para la vectorización de cálculos y operaciones sobre las curvas teóricas .
 
 ### Instalación de dependencias
 Para instalar las bibliotecas externas necesarias, ejecute el siguiente comando en la terminal:
