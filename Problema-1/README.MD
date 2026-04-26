@@ -24,6 +24,7 @@ El código utiliza las siguientes bibliotecas:
 Para instalar las bibliotecas externas necesarias, ejecute el siguiente comando en la terminal:
 ```bash
 pip install matplotlib numpy
+```
 
 ## Instrucciones de Ejecución
 
@@ -32,9 +33,10 @@ Ejecute el script principal. Esto correrá el algoritmo de la moneda falsa con l
 
 ```bash
 python ejercicio_dyc.py
-
+```
 **Para generar los gráficos de análisis de complejidad:**
 Asegúrese de haber instalado las dependencias. Ejecute el script de gráficos para visualizar la relación entre el tamaño de entrada n, el tiempo de ejecución y la función logarítmica de pesadas. El script guardará automáticamente las imágenes generadas.
 
 ```bash
 python grafico_dyc.py
+```
