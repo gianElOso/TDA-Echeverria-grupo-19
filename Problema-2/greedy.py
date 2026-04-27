@@ -1,38 +1,77 @@
-n = int(input("Cantidad de nodos: "))
+while True:
+    print("\n" * 50)  # CLS
 
-# Matriz de costos
-cost = [[0]*n for _ in range(n)]
+    N = int(input("INGRESE EL NUMERO DE VERTICES: "))
+    print()
 
-print("Ingrese la matriz de costos:")
-for i in range(n):
-    for j in range(n):
-        cost[i][j] = int(input())
+    # DIM COST (N,N)
+    COST = [[0]*(N+1) for _ in range(N+1)]
+    DIST = [0]*(N+1)
+    SOL = [0]*(N+1)
 
-# Se usa 15000 como valor centinela (infinito)
-dist = [15000]*n
-visitado = [0]*n
+    A = 1
+    print("INGRESE EL CUADRO DE COSTOS (INGRESE 0,0 PARA TERMINAR)")
+    print()
 
-origen = int(input("Nodo origen: "))
-dist[origen] = 0
+    # Carga de ejes
+    while True:
+        A = int(input("EL EJE (A): "))
+        B = int(input("EL EJE (B): "))
+        if A == 0:
+            break
+        COSTO = int(input("COSTO DEL EJE: "))
+        COST[A][B] = COSTO
 
-for _ in range(n):
-    minimo = 15000
-    u = -1
+    # Reemplazar 0 por 15000
+    for I in range(1, N+1):
+        for J in range(1, N+1):
+            if COST[I][J] == 0:
+                COST[I][J] = 15000
 
-    # Buscar nodo con menor distancia
-    for i in range(n):
-        if visitado[i] == 0 and dist[i] < minimo:
-            minimo = dist[i]
-            u = i
+    # Hacer matriz simétrica
+    for I in range(1, N+1):
+        for J in range(1, I+1):
+            COST[I][J] = COST[J][I]
 
-    visitado[u] = 1
+    V = int(input("INGRESE EL VERTICE DE SALIDA: "))
 
-    # Actualizar distancias
-    for v in range(n):
-        if visitado[v] == 0:
-            if dist[u] + cost[u][v] < dist[v]:
-                dist[v] = dist[u] + cost[u][v]
+    for I in range(1, N+1):
+        DIST[I] = COST[V][I]
+        SOL[I] = 0
 
-print("Distancias mínimas:")
-for i in range(n):
-    print("De", origen, "a", i, "=", dist[i])
+    # ===== GOSUB 1000 =====
+    def dijkstra():
+        SOL[V] = 1
+        DIST[V] = 0
+
+        for I in range(1, N):
+            U = 15000
+            pos = -1
+
+            for J in range(1, N+1):
+                if DIST[J] <= U and SOL[J] == 0:
+                    U = DIST[J]
+                    pos = J
+
+            U = pos
+            SOL[U] = 1
+
+            for J in range(1, N+1):
+                if DIST[J] >= (DIST[U] + COST[U][J]):
+                    DIST[J] = DIST[U] + COST[U][J]
+
+    dijkstra()
+    # ======================
+
+    print("SALIDA  LLEGADA  DISTANCIA")
+    for I in range(1, N+1):
+        if DIST[I] < 15000:
+            print(V, I, DIST[I])
+
+    RES = input("OTRA VEZ? (SI/NO): ")
+    if RES == "NO":
+        break
+
+    for I in range(1, N+1):
+        SOL[I] = 0
+        DIST[I] = 0
