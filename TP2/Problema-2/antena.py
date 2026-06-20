@@ -2,6 +2,7 @@ import sys
 import json
 from collections import  deque
 import networkx as nx
+from imprimir import visualizar_backups
 
 def cargarDatos(archivo):
     with open(archivo, 'r', encoding='utf-8') as f:
@@ -28,7 +29,7 @@ def armarMatrixDistancia(antenas):
     for antena1 in antenas:
         fila = []
         for antena2 in antenas:
-            fila.append(antena1.distancia(antena2))#mido distancias
+            fila.append(antena1.distancia(antena2))
         matrix.append(fila)
     return matrix
 
@@ -38,6 +39,9 @@ def grafoDirigido(matrix_distancia, antenas, D):
         for j in range(len(antenas)):
             if i != j and matrix_distancia[i][j] <= D:
                 G.add_edge(antenas[i].getId(), antenas[j].getDirigido(), capacity=1)
+    for antena in antenas:
+        G.add_edge("S", antena.getId(),capacity=k)
+        G.add_edge(antena.getDirigido(), "T", capacity=b)
     return G
 
 def bfs(G, s, t):
@@ -49,15 +53,14 @@ def bfs(G, s, t):
     
     while cola:
         nodo = cola.popleft()
-        if nodo == t: return padres
-        
+        if nodo == t: return padres   
         for vecino in G[nodo]:
             if vecino not in visitados and G[nodo][vecino]['capacity'] > 0:
                 visitados.add(vecino)
                 padres[vecino] = nodo
                 cola.append(vecino)
     return False
-    
+
 def reconstruirCamino(padres, s, t):
     camino = []
     actual = t
@@ -65,7 +68,6 @@ def reconstruirCamino(padres, s, t):
     while actual != s:
         camino.append(actual)
         actual = padres[actual]
-        
     camino.append(s)
     camino.reverse()
     return camino
@@ -76,8 +78,6 @@ def cuelloBotella(camino, G):
         u = camino[i]
         v = camino[i+1]
         cuello.append(G[u][v]['capacity'])
-        # print(f"Capacidad del enlace {u} -> {v}: {G[u][v]['capacity']}")
-
     return min(cuello)
 
 def actualizarCapacidades(camino, G, flujo,antenas_usadas): 
@@ -94,26 +94,22 @@ def actualizarCapacidades(camino, G, flujo,antenas_usadas):
         if u != "S" and v != "T":
             if u not in antenas_usadas:
                 antenas_usadas[u] = []  
-            antenas_usadas[u].append(v)#esto para mostrar con que antenas hizo backup
-    
-def iniciar(k,b,D, data):
+            antenas_usadas[u].append(v)
 
-    #cargo los datos del json
+def iniciar(k,b,D, data):
     antenas = []
     for antena in data["antenas"]:
         antenas.append(Antena(antena['id'], antena['x'], antena['y']))
 
     matrix_distancia = armarMatrixDistancia(antenas)
     G = grafoDirigido(matrix_distancia, antenas, D)
-    for antena in antenas:
-        G.add_edge("S", antena.getId(),capacity=k)
-        G.add_edge(antena.getDirigido(), "T", capacity=b)
+
 
     flujoMaximo = 0
     antenas_usadas = {}
     padres = bfs(G, "S", "T")
 
-    #aca inicia la magia
+    G_original = G.copy()
     while padres:
         camino = reconstruirCamino(padres, "S", "T")
         cuello = cuelloBotella(camino, G)
@@ -125,12 +121,15 @@ def iniciar(k,b,D, data):
         print("Cuello:", cuello)
         print("Flujo:", flujoMaximo)
 
-    #veredicto con resultados
     print("veredicto:")
     print("antenas: ", len(antenas))
     print("cantidad de backups necesarios: ", k)
     print("limite de backups: ",b)
-    print("se cumple flujo", flujoMaximo == len(antenas)*k)
+    if flujoMaximo != len(antenas)*k:
+        print("No se cumple flujo")
+    else:
+        print("Se cumple Flujo")
+        visualizar_backups(G_original,antenas)
 
     for antenas,backups in antenas_usadas.items():
         print(f"{antenas} -> {backups}") 
@@ -142,21 +141,4 @@ k = data["k"]
 b = data["b"]
 D = data["D"]   
 
-
-#si la cantidad de antenas es mayor que la capacidad de backups que puedo hacer no se cumpliria
-
-if k < b:
-    iniciar(k,b,D, data)
-else:
-    print("veredicto: ")
-    print("no es posible")
-
-
-
-
-
-
-
-
-
-       
+iniciar(k,b,D, data)
