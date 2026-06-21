@@ -1,0 +1,29 @@
+{
+  "parametros": {
+    "n": 500,
+    "D": 20,
+    "k": 1,
+    "b": 5
+  },
+  "flujo_maximo": 500,
+  "flujo_necesario": 500,
+  "solucion": "Se cumple flujo",
+  "tiempo_segundos": 0.712961,
+  "backups": {
+    "A1": [
+      "B10"
+    ],
+    "A2": [
+      "B12"
+    ],
+    "A3": [
+      "B8"
+    ],
+    "A4": [
+      "B10"
+    ],
+    "A5": [
+      "B12"
+    ]
+  }
+}
