@@ -8,7 +8,7 @@
   "flujo_maximo": 200,
   "flujo_necesario": 200,
   "solucion": "Se cumple flujo",
-  "tiempo_segundos": 0.039878,
+  "tiempo_segundos": 0.076361,
   "backups": {
     "A1": [
       "B10",

@@ -1,0 +1,706 @@
+['S', 'A1', 'B10', 'T']
+Cuello: 1
+Flujo: 1
+['S', 'A1', 'B21', 'T']
+Cuello: 1
+Flujo: 2
+['S', 'A2', 'B12', 'T']
+Cuello: 1
+Flujo: 3
+['S', 'A2', 'B22', 'T']
+Cuello: 1
+Flujo: 4
+['S', 'A3', 'B8', 'T']
+Cuello: 1
+Flujo: 5
+['S', 'A3', 'B11', 'T']
+Cuello: 1
+Flujo: 6
+['S', 'A4', 'B10', 'T']
+Cuello: 1
+Flujo: 7
+['S', 'A4', 'B21', 'T']
+Cuello: 1
+Flujo: 8
+['S', 'A5', 'B12', 'T']
+Cuello: 1
+Flujo: 9
+['S', 'A5', 'B26', 'T']
+Cuello: 1
+Flujo: 10
+['S', 'A6', 'B9', 'T']
+Cuello: 1
+Flujo: 11
+['S', 'A6', 'B18', 'T']
+Cuello: 1
+Flujo: 12
+['S', 'A7', 'B14', 'T']
+Cuello: 1
+Flujo: 13
+['S', 'A7', 'B23', 'T']
+Cuello: 1
+Flujo: 14
+['S', 'A8', 'B3', 'T']
+Cuello: 1
+Flujo: 15
+['S', 'A8', 'B19', 'T']
+Cuello: 1
+Flujo: 16
+['S', 'A9', 'B6', 'T']
+Cuello: 1
+Flujo: 17
+['S', 'A9', 'B18', 'T']
+Cuello: 1
+Flujo: 18
+['S', 'A10', 'B1', 'T']
+Cuello: 1
+Flujo: 19
+['S', 'A10', 'B4', 'T']
+Cuello: 1
+Flujo: 20
+['S', 'A11', 'B3', 'T']
+Cuello: 1
+Flujo: 21
+['S', 'A11', 'B15', 'T']
+Cuello: 1
+Flujo: 22
+['S', 'A12', 'B2', 'T']
+Cuello: 1
+Flujo: 23
+['S', 'A12', 'B5', 'T']
+Cuello: 1
+Flujo: 24
+['S', 'A13', 'B37', 'T']
+Cuello: 1
+Flujo: 25
+['S', 'A13', 'B39', 'T']
+Cuello: 1
+Flujo: 26
+['S', 'A14', 'B7', 'T']
+Cuello: 1
+Flujo: 27
+['S', 'A14', 'B23', 'T']
+Cuello: 1
+Flujo: 28
+['S', 'A15', 'B3', 'T']
+Cuello: 1
+Flujo: 29
+['S', 'A15', 'B11', 'T']
+Cuello: 1
+Flujo: 30
+['S', 'A16', 'B11', 'T']
+Cuello: 1
+Flujo: 31
+['S', 'A16', 'B15', 'T']
+Cuello: 1
+Flujo: 32
+['S', 'A17', 'B42', 'T']
+Cuello: 1
+Flujo: 33
+['S', 'A17', 'B55', 'T']
+Cuello: 1
+Flujo: 34
+['S', 'A18', 'B6', 'T']
+Cuello: 1
+Flujo: 35
+['S', 'A18', 'B9', 'T']
+Cuello: 1
+Flujo: 36
+['S', 'A19', 'B8', 'T']
+Cuello: 1
+Flujo: 37
+['S', 'A19', 'B15', 'T']
+Cuello: 1
+Flujo: 38
+['S', 'A20', 'B16', 'T']
+Cuello: 1
+Flujo: 39
+['S', 'A20', 'B19', 'T']
+Cuello: 1
+Flujo: 40
+['S', 'A21', 'B1', 'T']
+Cuello: 1
+Flujo: 41
+['S', 'A21', 'B4', 'T']
+Cuello: 1
+Flujo: 42
+['S', 'A22', 'B2', 'T']
+Cuello: 1
+Flujo: 43
+['S', 'A22', 'B12', 'T']
+Cuello: 1
+Flujo: 44
+['S', 'A23', 'B2', 'T']
+Cuello: 1
+Flujo: 45
+['S', 'A23', 'B7', 'T']
+Cuello: 1
+Flujo: 46
+['S', 'A24', 'B7', 'T']
+Cuello: 1
+Flujo: 47
+['S', 'A24', 'B14', 'T']
+Cuello: 1
+Flujo: 48
+['S', 'A25', 'B8', 'T']
+Cuello: 1
+Flujo: 49
+['S', 'A25', 'B38', 'T']
+Cuello: 1
+Flujo: 50
+['S', 'A26', 'B5', 'T']
+Cuello: 1
+Flujo: 51
+['S', 'A26', 'B22', 'T']
+Cuello: 1
+Flujo: 52
+['S', 'A27', 'B36', 'T']
+Cuello: 1
+Flujo: 53
+['S', 'A27', 'B55', 'T']
+Cuello: 1
+Flujo: 54
+['S', 'A28', 'B16', 'T']
+Cuello: 1
+Flujo: 55
+['S', 'A28', 'B19', 'T']
+Cuello: 1
+Flujo: 56
+['S', 'A29', 'B9', 'T']
+Cuello: 1
+Flujo: 57
+['S', 'A29', 'B46', 'T']
+Cuello: 1
+Flujo: 58
+['S', 'A30', 'B6', 'T']
+Cuello: 1
+Flujo: 59
+['S', 'A30', 'B22', 'T']
+Cuello: 1
+Flujo: 60
+['S', 'A31', 'B20', 'T']
+Cuello: 1
+Flujo: 61
+['S', 'A31', 'B33', 'T']
+Cuello: 1
+Flujo: 62
+['S', 'A32', 'B28', 'T']
+Cuello: 1
+Flujo: 63
+['S', 'A32', 'B52', 'T']
+Cuello: 1
+Flujo: 64
+['S', 'A33', 'B16', 'T']
+Cuello: 1
+Flujo: 65
+['S', 'A33', 'B20', 'T']
+Cuello: 1
+Flujo: 66
+['S', 'A34', 'B5', 'T']
+Cuello: 1
+Flujo: 67
+['S', 'A34', 'B14', 'T']
+Cuello: 1
+Flujo: 68
+['S', 'A35', 'B26', 'T']
+Cuello: 1
+Flujo: 69
+['S', 'A35', 'B30', 'T']
+Cuello: 1
+Flujo: 70
+['S', 'A36', 'B27', 'T']
+Cuello: 1
+Flujo: 71
+['S', 'A36', 'B64', 'T']
+Cuello: 1
+Flujo: 72
+['S', 'A37', 'B13', 'T']
+Cuello: 1
+Flujo: 73
+['S', 'A37', 'B39', 'T']
+Cuello: 1
+Flujo: 74
+['S', 'A38', 'B25', 'T']
+Cuello: 1
+Flujo: 75
+['S', 'A38', 'B41', 'T']
+Cuello: 1
+Flujo: 76
+['S', 'A39', 'B13', 'T']
+Cuello: 1
+Flujo: 77
+['S', 'A39', 'B20', 'T']
+Cuello: 1
+Flujo: 78
+['S', 'A40', 'B23', 'T']
+Cuello: 1
+Flujo: 79
+['S', 'A40', 'B24', 'T']
+Cuello: 1
+Flujo: 80
+['S', 'A41', 'B25', 'T']
+Cuello: 1
+Flujo: 81
+['S', 'A41', 'B26', 'T']
+Cuello: 1
+Flujo: 82
+['S', 'A42', 'B17', 'T']
+Cuello: 1
+Flujo: 83
+['S', 'A42', 'B55', 'T']
+Cuello: 1
+Flujo: 84
+['S', 'A43', 'B35', 'T']
+Cuello: 1
+Flujo: 85
+['S', 'A43', 'B40', 'T']
+Cuello: 1
+Flujo: 86
+['S', 'A44', 'B13', 'T']
+Cuello: 1
+Flujo: 87
+['S', 'A44', 'B31', 'T']
+Cuello: 1
+Flujo: 88
+['S', 'A45', 'B34', 'T']
+Cuello: 1
+Flujo: 89
+['S', 'A45', 'B78', 'T']
+Cuello: 1
+Flujo: 90
+['S', 'A46', 'B29', 'T']
+Cuello: 1
+Flujo: 91
+['S', 'A46', 'B51', 'T']
+Cuello: 1
+Flujo: 92
+['S', 'A47', 'B25', 'T']
+Cuello: 1
+Flujo: 93
+['S', 'A47', 'B37', 'T']
+Cuello: 1
+Flujo: 94
+['S', 'A48', 'B24', 'T']
+Cuello: 1
+Flujo: 95
+['S', 'A48', 'B30', 'T']
+Cuello: 1
+Flujo: 96
+['S', 'A49', 'B31', 'T']
+Cuello: 1
+Flujo: 97
+['S', 'A49', 'B39', 'T']
+Cuello: 1
+Flujo: 98
+['S', 'A50', 'B33', 'T']
+Cuello: 1
+Flujo: 99
+['S', 'A50', 'B58', 'T']
+Cuello: 1
+Flujo: 100
+['S', 'A51', 'B29', 'T']
+Cuello: 1
+Flujo: 101
+['S', 'A51', 'B46', 'T']
+Cuello: 1
+Flujo: 102
+['S', 'A52', 'B28', 'T']
+Cuello: 1
+Flujo: 103
+['S', 'A52', 'B32', 'T']
+Cuello: 1
+Flujo: 104
+['S', 'A53', 'B18', 'T']
+Cuello: 1
+Flujo: 105
+['S', 'A53', 'B29', 'T']
+Cuello: 1
+Flujo: 106
+['S', 'A54', 'B24', 'T']
+Cuello: 1
+Flujo: 107
+['S', 'A54', 'B30', 'T']
+Cuello: 1
+Flujo: 108
+['S', 'A55', 'B17', 'T']
+Cuello: 1
+Flujo: 109
+['S', 'A55', 'B27', 'T']
+Cuello: 1
+Flujo: 110
+['S', 'A56', 'B4', 'T']
+Cuello: 1
+Flujo: 111
+['S', 'A56', 'B37', 'T']
+Cuello: 1
+Flujo: 112
+['S', 'A57', 'B41', 'T']
+Cuello: 1
+Flujo: 113
+['S', 'A57', 'B43', 'T']
+Cuello: 1
+Flujo: 114
+['S', 'A58', 'B33', 'T']
+Cuello: 1
+Flujo: 115
+['S', 'A58', 'B50', 'T']
+Cuello: 1
+Flujo: 116
+['S', 'A59', 'B46', 'T']
+Cuello: 1
+Flujo: 117
+['S', 'A59', 'B53', 'T']
+Cuello: 1
+Flujo: 118
+['S', 'A60', 'B1', 'T']
+Cuello: 1
+Flujo: 119
+['S', 'A60', 'B21', 'T']
+Cuello: 1
+Flujo: 120
+['S', 'A61', 'B28', 'T']
+Cuello: 1
+Flujo: 121
+['S', 'A61', 'B38', 'T']
+Cuello: 1
+Flujo: 122
+['S', 'A62', 'B38', 'T']
+Cuello: 1
+Flujo: 123
+['S', 'A62', 'B47', 'T']
+Cuello: 1
+Flujo: 124
+['S', 'A63', 'B48', 'T']
+Cuello: 1
+Flujo: 125
+['S', 'A63', 'B54', 'T']
+Cuello: 1
+Flujo: 126
+['S', 'A64', 'B36', 'T']
+Cuello: 1
+Flujo: 127
+['S', 'A64', 'B69', 'T']
+Cuello: 1
+Flujo: 128
+['S', 'A65', 'B50', 'T']
+Cuello: 1
+Flujo: 129
+['S', 'A65', 'B58', 'T']
+Cuello: 1
+Flujo: 130
+['S', 'A66', 'B34', 'T']
+Cuello: 1
+Flujo: 131
+['S', 'A66', 'B40', 'T']
+Cuello: 1
+Flujo: 132
+['S', 'A67', 'B50', 'T']
+Cuello: 1
+Flujo: 133
+['S', 'A67', 'B58', 'T']
+Cuello: 1
+Flujo: 134
+['S', 'A68', 'B48', 'T']
+Cuello: 1
+Flujo: 135
+['S', 'A68', 'B54', 'T']
+Cuello: 1
+Flujo: 136
+['S', 'A69', 'B51', 'T']
+Cuello: 1
+Flujo: 137
+['S', 'A69', 'B64', 'T']
+Cuello: 1
+Flujo: 138
+['S', 'A70', 'B10', 'T']
+Cuello: 1
+Flujo: 139
+['S', 'A70', 'B56', 'T']
+Cuello: 1
+Flujo: 140
+['S', 'A71', 'B32', 'T']
+Cuello: 1
+Flujo: 141
+['S', 'A71', 'B59', 'T']
+Cuello: 1
+Flujo: 142
+['S', 'A72', 'B27', 'T']
+Cuello: 1
+Flujo: 143
+['S', 'A72', 'B36', 'T']
+Cuello: 1
+Flujo: 144
+['S', 'A73', 'B35', 'T']
+Cuello: 1
+Flujo: 145
+['S', 'A73', 'B40', 'T']
+Cuello: 1
+Flujo: 146
+['S', 'A74', 'B32', 'T']
+Cuello: 1
+Flujo: 147
+['S', 'A74', 'B42', 'T']
+Cuello: 1
+Flujo: 148
+['S', 'A75', 'B35', 'T']
+Cuello: 1
+Flujo: 149
+['S', 'A75', 'B48', 'T']
+Cuello: 1
+Flujo: 150
+['S', 'A76', 'B31', 'T']
+Cuello: 1
+Flujo: 151
+['S', 'A76', 'B44', 'T']
+Cuello: 1
+Flujo: 152
+['S', 'A77', 'B59', 'T']
+Cuello: 1
+Flujo: 153
+['S', 'A77', 'B71', 'T']
+Cuello: 1
+Flujo: 154
+['S', 'A78', 'B45', 'T']
+Cuello: 1
+Flujo: 155
+['S', 'A78', 'B63', 'T']
+Cuello: 1
+Flujo: 156
+['S', 'A79', 'B53', 'T']
+Cuello: 1
+Flujo: 157
+['S', 'A79', 'B59', 'T']
+Cuello: 1
+Flujo: 158
+['S', 'A80', 'B34', 'T']
+Cuello: 1
+Flujo: 159
+['S', 'A80', 'B43', 'T']
+Cuello: 1
+Flujo: 160
+['S', 'A81', 'B51', 'T']
+Cuello: 1
+Flujo: 161
+['S', 'A81', 'B53', 'T']
+Cuello: 1
+Flujo: 162
+['S', 'A82', 'B72', 'T']
+Cuello: 1
+Flujo: 163
+['S', 'A82', 'B97', 'T']
+Cuello: 1
+Flujo: 164
+['S', 'A83', 'B56', 'T']
+Cuello: 1
+Flujo: 165
+['S', 'A83', 'B70', 'T']
+Cuello: 1
+Flujo: 166
+['S', 'A84', 'B69', 'T']
+Cuello: 1
+Flujo: 167
+['S', 'A84', 'B79', 'T']
+Cuello: 1
+Flujo: 168
+['S', 'A85', 'B45', 'T']
+Cuello: 1
+Flujo: 169
+['S', 'A85', 'B66', 'T']
+Cuello: 1
+Flujo: 170
+['S', 'A86', 'B44', 'T']
+Cuello: 1
+Flujo: 171
+['S', 'A86', 'B49', 'T']
+Cuello: 1
+Flujo: 172
+['S', 'A87', 'B17', 'T']
+Cuello: 1
+Flujo: 173
+['S', 'A87', 'B42', 'T']
+Cuello: 1
+Flujo: 174
+['S', 'A88', 'B56', 'T']
+Cuello: 1
+Flujo: 175
+['S', 'A88', 'B70', 'T']
+Cuello: 1
+Flujo: 176
+['S', 'A89', 'B54', 'T']
+Cuello: 1
+Flujo: 177
+['S', 'A89', 'B63', 'T']
+Cuello: 1
+Flujo: 178
+['S', 'A90', 'B71', 'T']
+Cuello: 1
+Flujo: 179
+['S', 'A90', 'B77', 'T']
+Cuello: 1
+Flujo: 180
+['S', 'A91', 'B52', 'T']
+Cuello: 1
+Flujo: 181
+['S', 'A91', 'B61', 'T']
+Cuello: 1
+Flujo: 182
+['S', 'A92', 'B83', 'T']
+Cuello: 1
+Flujo: 183
+['S', 'A92', 'B88', 'T']
+Cuello: 1
+Flujo: 184
+['S', 'A93', 'B41', 'T']
+Cuello: 1
+Flujo: 185
+['S', 'A93', 'B43', 'T']
+Cuello: 1
+Flujo: 186
+['S', 'A94', 'B47', 'T']
+Cuello: 1
+Flujo: 187
+['S', 'A94', 'B70', 'T']
+Cuello: 1
+Flujo: 188
+['S', 'A95', 'B68', 'T']
+Cuello: 1
+Flujo: 189
+['S', 'A95', 'B75', 'T']
+Cuello: 1
+Flujo: 190
+['S', 'A96', 'B57', 'T']
+Cuello: 1
+Flujo: 191
+['S', 'A96', 'B73', 'T']
+Cuello: 1
+Flujo: 192
+['S', 'A97', 'B72', 'T']
+Cuello: 1
+Flujo: 193
+['S', 'A97', 'B82', 'T']
+Cuello: 1
+Flujo: 194
+['S', 'A98', 'B72', 'T']
+Cuello: 1
+Flujo: 195
+['S', 'A98', 'B74', 'T']
+Cuello: 1
+Flujo: 196
+['S', 'A99', 'B57', 'T']
+Cuello: 1
+Flujo: 197
+['S', 'A99', 'B60', 'T']
+Cuello: 1
+Flujo: 198
+['S', 'A100', 'B65', 'T']
+Cuello: 1
+Flujo: 199
+['S', 'A100', 'B67', 'T']
+Cuello: 1
+Flujo: 200
+veredicto:
+antenas:  100
+cantidad de backups necesarios:  2
+limite de backups:  3
+Se cumple Flujo
+A1 -> ['B10', 'B21']
+A2 -> ['B12', 'B22']
+A3 -> ['B8', 'B11']
+A4 -> ['B10', 'B21']
+A5 -> ['B12', 'B26']
+A6 -> ['B9', 'B18']
+A7 -> ['B14', 'B23']
+A8 -> ['B3', 'B19']
+A9 -> ['B6', 'B18']
+A10 -> ['B1', 'B4']
+A11 -> ['B3', 'B15']
+A12 -> ['B2', 'B5']
+A13 -> ['B37', 'B39']
+A14 -> ['B7', 'B23']
+A15 -> ['B3', 'B11']
+A16 -> ['B11', 'B15']
+A17 -> ['B42', 'B55']
+A18 -> ['B6', 'B9']
+A19 -> ['B8', 'B15']
+A20 -> ['B16', 'B19']
+A21 -> ['B1', 'B4']
+A22 -> ['B2', 'B12']
+A23 -> ['B2', 'B7']
+A24 -> ['B7', 'B14']
+A25 -> ['B8', 'B38']
+A26 -> ['B5', 'B22']
+A27 -> ['B36', 'B55']
+A28 -> ['B16', 'B19']
+A29 -> ['B9', 'B46']
+A30 -> ['B6', 'B22']
+A31 -> ['B20', 'B33']
+A32 -> ['B28', 'B52']
+A33 -> ['B16', 'B20']
+A34 -> ['B5', 'B14']
+A35 -> ['B26', 'B30']
+A36 -> ['B27', 'B64']
+A37 -> ['B13', 'B39']
+A38 -> ['B25', 'B41']
+A39 -> ['B13', 'B20']
+A40 -> ['B23', 'B24']
+A41 -> ['B25', 'B26']
+A42 -> ['B17', 'B55']
+A43 -> ['B35', 'B40']
+A44 -> ['B13', 'B31']
+A45 -> ['B34', 'B78']
+A46 -> ['B29', 'B51']
+A47 -> ['B25', 'B37']
+A48 -> ['B24', 'B30']
+A49 -> ['B31', 'B39']
+A50 -> ['B33', 'B58']
+A51 -> ['B29', 'B46']
+A52 -> ['B28', 'B32']
+A53 -> ['B18', 'B29']
+A54 -> ['B24', 'B30']
+A55 -> ['B17', 'B27']
+A56 -> ['B4', 'B37']
+A57 -> ['B41', 'B43']
+A58 -> ['B33', 'B50']
+A59 -> ['B46', 'B53']
+A60 -> ['B1', 'B21']
+A61 -> ['B28', 'B38']
+A62 -> ['B38', 'B47']
+A63 -> ['B48', 'B54']
+A64 -> ['B36', 'B69']
+A65 -> ['B50', 'B58']
+A66 -> ['B34', 'B40']
+A67 -> ['B50', 'B58']
+A68 -> ['B48', 'B54']
+A69 -> ['B51', 'B64']
+A70 -> ['B10', 'B56']
+A71 -> ['B32', 'B59']
+A72 -> ['B27', 'B36']
+A73 -> ['B35', 'B40']
+A74 -> ['B32', 'B42']
+A75 -> ['B35', 'B48']
+A76 -> ['B31', 'B44']
+A77 -> ['B59', 'B71']
+A78 -> ['B45', 'B63']
+A79 -> ['B53', 'B59']
+A80 -> ['B34', 'B43']
+A81 -> ['B51', 'B53']
+A82 -> ['B72', 'B97']
+A83 -> ['B56', 'B70']
+A84 -> ['B69', 'B79']
+A85 -> ['B45', 'B66']
+A86 -> ['B44', 'B49']
+A87 -> ['B17', 'B42']
+A88 -> ['B56', 'B70']
+A89 -> ['B54', 'B63']
+A90 -> ['B71', 'B77']
+A91 -> ['B52', 'B61']
+A92 -> ['B83', 'B88']
+A93 -> ['B41', 'B43']
+A94 -> ['B47', 'B70']
+A95 -> ['B68', 'B75']
+A96 -> ['B57', 'B73']
+A97 -> ['B72', 'B82']
+A98 -> ['B72', 'B74']
+A99 -> ['B57', 'B60']
+A100 -> ['B65', 'B67']
+0.0484204999
