@@ -1,0 +1,86 @@
+================================================================================
+RESULTADOS EXPERIMENTALES
+================================================================================
+
+DATASET n = 1000
+------------------------------------------------------------
+B = 10000000
+Cantidad de elementos de A = 1000
+Cantidad de elementos de la solución = 1000
+Suma obtenida = 5086966
+Tiempo de ejecución = 0.00003998 segundos
+Archivo dataset: dataset_1000.txt
+Archivo solución: solucion_1000.txt
+
+DATASET n = 5000
+------------------------------------------------------------
+B = 10000000
+Cantidad de elementos de A = 5000
+Cantidad de elementos de la solución = 1962
+Suma obtenida = 9999999
+Tiempo de ejecución = 0.00014529 segundos
+Archivo dataset: dataset_5000.txt
+Archivo solución: solucion_5000.txt
+
+DATASET n = 10000
+------------------------------------------------------------
+B = 10000000
+Cantidad de elementos de A = 10000
+Cantidad de elementos de la solución = 1992
+Suma obtenida = 10000000
+Tiempo de ejecución = 0.00025334 segundos
+Archivo dataset: dataset_10000.txt
+Archivo solución: solucion_10000.txt
+
+DATASET n = 20000
+------------------------------------------------------------
+B = 10000000
+Cantidad de elementos de A = 20000
+Cantidad de elementos de la solución = 2015
+Suma obtenida = 10000000
+Tiempo de ejecución = 0.00047565 segundos
+Archivo dataset: dataset_20000.txt
+Archivo solución: solucion_20000.txt
+
+DATASET n = 50000
+------------------------------------------------------------
+B = 10000000
+Cantidad de elementos de A = 50000
+Cantidad de elementos de la solución = 1960
+Suma obtenida = 10000000
+Tiempo de ejecución = 0.00116769 segundos
+Archivo dataset: dataset_50000.txt
+Archivo solución: solucion_50000.txt
+
+DATASET n = 100000
+------------------------------------------------------------
+B = 10000000
+Cantidad de elementos de A = 100000
+Cantidad de elementos de la solución = 1974
+Suma obtenida = 10000000
+Tiempo de ejecución = 0.00226650 segundos
+Archivo dataset: dataset_100000.txt
+Archivo solución: solucion_100000.txt
+
+DATASET n = 200000
+------------------------------------------------------------
+B = 10000000
+Cantidad de elementos de A = 200000
+Cantidad de elementos de la solución = 2028
+Suma obtenida = 10000000
+Tiempo de ejecución = 0.00479011 segundos
+Archivo dataset: dataset_200000.txt
+Archivo solución: solucion_200000.txt
+
+
+================================================================================
+TABLA RESUMEN
+================================================================================
+         n      Elementos           Suma      Tiempo(s)
+      1000           1000        5086966     0.00003998
+      5000           1962        9999999     0.00014529
+     10000           1992       10000000     0.00025334
+     20000           2015       10000000     0.00047565
+     50000           1960       10000000     0.00116769
+    100000           1974       10000000     0.00226650
+    200000           2028       10000000     0.00479011
