@@ -41,6 +41,6 @@ for n in tamaños:
 plt.plot(tamaños, tiempos, marker="o")
 plt.xlabel("Cantidad de elementos n")
 plt.ylabel("Tiempo de ejecución [seg]")
-plt.title("Problema 4 - Tiempo de ejecución del algoritmo de aproximación")
+plt.title("Problema 3 - Tiempo de ejecución del algoritmo de aproximación")
 plt.grid(True)
 plt.show()

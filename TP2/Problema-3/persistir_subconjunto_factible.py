@@ -201,7 +201,7 @@ plt.plot(
 plt.xlabel("Cantidad de elementos n")
 plt.ylabel("Tiempo de ejecución [seg]")
 plt.title(
-    "Problema 4 - Tiempo de ejecución del algoritmo de aproximación"
+    "Problema 3 - Tiempo de ejecución del algoritmo de aproximación"
 )
 
 plt.grid(True)
